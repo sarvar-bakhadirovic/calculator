@@ -1,0 +1,115 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(255, 255, 255);
+}
+.calculator{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.result{
+    width: 26%;
+    height: 100px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid rgb(230, 230, 230);
+}
+.previous,
+.current{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    height: 40%;
+    border: 1px solid;
+    border: none;
+}
+.previous input,
+.current input{
+    text-align: end;
+    font-size: 10px;
+    width: 100%;
+    height: 100%;
+    font-family: 'Orbitron', sans-serif;
+    padding: 5px 10px;
+    background-color: transparent;
+    letter-spacing: 5px;
+    border: 1px solid transparent;
+}
+.current{
+    height: 60%;
+}
+.previous input{
+    padding-top: 20px;
+}
+.current input{
+    font-size: 18px;
+    margin: 0 auto;
+}
+
+.process{
+    display: grid;
+    grid-template-columns: repeat(4, 75px);
+    grid-template-rows: repeat(5, 75px);
+    grid-gap: 20px;
+    width: 26%;
+    height: 500px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid rgb(240, 240, 240);
+    margin-top: 30px;
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+button{
+    background-color: rgb(245, 245, 245);
+    border-radius: 50%;
+    border: 1px solid rgb(240, 240, 240);
+    cursor: pointer;
+    font-size: 26px;
+    transition: all .1s ease-in;
+}
+button:active{
+    background-color: rgb(230, 230, 230);
+}
+.fa-solid{
+    pointer-events: none;
+}
+.orange-color{
+    color: rgb(243, 137, 16);
+}
+.equal,
+.equal:hover{
+    background-color: rgb(243, 137, 16);
+    color: #fff;
+}
+
+

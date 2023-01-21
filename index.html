@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+    <link rel="shortcut icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAMAAABlApw1AAAAElBMVEX9jDv////+zar/9/H9j0D+yaSchSKfAAAAiElEQVR4nO3YuwnAMBBEQf3cf8tGuRPBgVg8U8E9Ryu3BgAAAAAAAAAAAAAAAACf1pi9xBzrSsCoOX97rgQUff9tXgmou793AQIECBAgQMCp+CkRP+bi5zQAAPBf8Q+a+Cdl/KO+7n7/hQQIECBAgIBz8VMifszFz2kAAAAAAAAAAAAAAAAAArwINgnVJRpPOQAAAABJRU5ErkJggg==" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+    
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div class="calculator">
+        <div class="result">
+            <div class="previous">
+                <input type="text" value="" disabled data-previous>
+            </div>
+            <div class="current">
+                <input type="text" value="" disabled data-current placeholder="0">
+            </div>
+        </div>
+        <div class="process">
+            <button data-allClear class="orange-color">AC</button>
+            <button data-delete class="orange-color"><i class="fa-solid fa-delete-left"></i></button>
+            <button data-percent class="orange-color" value="%">%</button>
+            <button data-operations class="orange-color" value="/"><i class="fa-solid fa-divide"></i></button>
+            <button data-numbers value="7">7</button>
+            <button data-numbers value="8">8</button>
+            <button data-numbers value="9">9</button>
+            <button data-operations class="orange-color" value="*"><i class="fa-solid fa-xmark"></i></button>
+            <button data-numbers value="4">4</button>
+            <button data-numbers value="5">5</button>
+            <button data-numbers value="6">6</button>
+            <button data-operations class="orange-color" value="-">-</button>
+            <button data-numbers value="1">1</button>
+            <button data-numbers value="2">2</button>
+            <button data-numbers value="3">3</button>
+            <button data-operations class="orange-color" value="+">+</button>
+            <button data-point class="orange-color" value=".">.</button>
+            <button data-numbers value="0">0</button>
+            <button data-exclamation class="orange-color" value="!"><i class="fa-solid fa-exclamation"></i></button>
+            <button data-result class="orange-color equal">=</button>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/all.min.js" integrity="sha512-rpLlll167T5LJHwp0waJCh3ZRf7pO6IT1+LZOhAyP6phAirwchClbTZV3iqL3BMrVxIYRbzGTpli4rfxsCK6Vw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
